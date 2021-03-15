@@ -1,0 +1,389 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.content1{
+    background-image: url(christian-wiediger-WkfDrhxDMC8-unsplash.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.top-menue ul
+{
+    background-color: black;
+    list-style-type: none;
+}
+.top-menue li{
+    display: inline-block;
+}
+.top-menue a{
+    text-decoration: none;
+    color: greenyellow;
+    display: block;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Helvetica;
+    margin-left: 160px;
+}
+.top-menue a:hover{
+    background-color:  #7a8e8c ;
+}
+.top-menue h2{
+    margin-left: 20px;
+    color: greenyellow;
+}
+.top-menue span{
+    color: white;
+}
+.top-menue i{
+    margin-right: 8px;
+}
+
+
+.second-menu{
+    background-color: #1779a4;/*#1779a4*/
+    text-align: center;
+}
+.second-menu ul{
+    list-style-type: none;
+}
+.second-menu li{
+    display: inline-block;
+}
+.second-menu a{
+    display: block;
+    color: white;
+    font-size:18px ;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 17px;
+}
+.second-menu a:hover{
+    color: black;
+    background-color: #f0aa20;
+}
+.second-menu i{
+    margin-right: 8px;
+}
+
+
+
+.welcom {
+    margin-top: 0px;
+    display: block;
+    text-align: center;
+    /*background-color: black;*/
+}
+.welcom h1{
+    padding-top: 20px;
+    margin-top: 0px;
+    color:  #f30c48 ;
+    font-size: 50px;
+}
+.welcom i{
+    text-align: center;
+    color:  #f30c48 ;
+    margin-top: 40px;
+    font-size: xx-large;    
+}
+
+
+
+
+
+.button {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.bt1{
+    background-color:#1779a4;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    border:2px solid;
+    border-color: #1779a4;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.bt1:hover{
+    background-color:  #64f30c ;
+    color:black;
+    border: 2px solid;
+    border-color:  #64f30c ;
+    border-radius: 4px;
+}
+.bt1 a{
+    font-family: Helvetica;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+    background-color:transparent;
+}
+.bt1 a:hover{
+    color: black;
+}
+
+
+
+.descr{
+    margin-top: 70px;
+    
+}
+.div1 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 70px;
+}
+.div1 h3{
+    font-size: 25px;
+    font-family: Helvetica;
+    
+}
+.div1 p{
+    font-size: 15px;
+    font-family: 'Courier New', Courier;
+    font-weight: bolder;
+}
+.div2 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 70px;
+}
+.div2 h3{
+    font-size: 25px;
+    font-family: Helvetica;
+}
+.div2 p{
+    font-size: 15px;
+    font-family: 'Courier New', Courier;
+    font-weight: bolder;
+}
+.div3 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 70px;
+}
+.div3 h3{
+    font-size: 25px;
+    font-family: Helvetica;
+}
+.div3 p{
+    font-size: 15px;
+    font-family: 'Courier New', Courier;
+    font-weight: bolder;
+}
+.descr2{
+    margin-top: 70px;
+    
+}
+.div4 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 70px;
+}
+.div4 h3{
+    font-size: 25px;
+    font-family: Helvetica;
+    
+}
+.div4 p{
+    font-size: 15px;
+    font-family: 'Courier New', Courier;
+    font-weight: bolder;
+}
+.div5 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px;
+}
+.div5 h3{
+    font-size: 25px;
+    font-family: Helvetica;
+}
+.div5 p{
+    font-size: 15px;
+    font-family: 'Courier New', Courier;
+    font-weight: bolder;
+}
+.div6 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px;
+}
+.div6 h3{
+    font-size: 25px;
+    font-family: Helvetica;
+}
+.div6 p{
+    font-size: 15px;
+    font-family: 'Courier New', Courier;
+    font-weight: bolder;
+}
+
+.q{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 60px;
+    color:  #565b56 ;
+}
+.quote{
+    margin-top: 60px;
+    padding-bottom:20px ;
+    background-color: #524c4d;
+}
+.keep h2{
+    padding-top: 30px;
+    text-align: center;
+    color:  #f632c9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.keep h3{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.keep i{
+    color:  #8af61d;
+    margin-right: 8px;
+}
+.footer{
+    margin-top: 40px;
+}
+.content{
+    background-color: black;
+}
+
+
+.def{
+    display: inline-block;
+    margin-left: 40px;
+}
+.def h2{
+    margin-bottom: 17px;
+    color:#1779a4;
+}
+.def span{
+    color: white;
+}
+.def p{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.con{
+    display: inline-block;
+    margin-left: 200px;
+}
+.con h2{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: white;
+}
+.con li{
+    list-style-type: none;
+    margin-bottom: 9px;
+}
+.con .facebook{
+    text-decoration: none;
+    color: #1779a4;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+.con .fa-facebook-square{
+    color: #1779a4;
+    margin-right: 9px;
+    font-size: 18px;
+}
+.con .youtube{
+    text-decoration: none;
+    color:  #da2b1a ;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+.con .fa-youtube-play{
+    color:  #da2b1a;
+    margin-right: 9px;
+    font-size: 18px;
+}
+.con .github{
+    text-decoration: none;
+    color:  orange;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+.con .fa-github-alt{
+    color:  orange;
+    margin-right: 9px;
+    font-size: 18px;
+}
+
+
+
+
+.tech{
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.tech h2{
+    color: white;
+    margin-bottom: 10px;
+}
+.tech li{
+    list-style-type: none;
+    margin-bottom: 9px;
+}
+.tech a{
+    text-decoration: none;
+    color: #f30c48;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+.tech .fa-envelope-square{
+    margin-right: 9px;
+}
+.tech .fa-comment{
+    margin-right: 9px;
+}
+.tech .fa-phone{
+    margin-right: 9px;
+}
+.bottom{
+    text-align: center;
+    background-color: #202020;
+    color: rgb(240, 242, 248);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
